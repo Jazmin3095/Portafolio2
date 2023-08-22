@@ -1,0 +1,59 @@
+.title__network{
+    display: flex;
+    position: absolute;
+    left: 45rem;
+    top: 37rem;
+    
+}
+
+
+.icono__github {
+    margin-right: 4rem;
+    border-radius: 100%;
+    width: 85px; 
+}
+
+.icono__github:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
+.icono__linked {
+    margin-right: 3rem;
+    border-radius: 100%;
+    width: 85px; 
+}
+
+.icono__linked:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
+.icono__insta {
+    margin-right: 3rem;
+    border-radius: 100%;
+    width: 85px; 
+}
+
+.icono__insta:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
+.icono__curriculo {
+    margin-right: 3rem;
+    border-radius: 100%;
+    width: 85px; 
+}
+
+.icono__curriculo:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}

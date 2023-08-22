@@ -1,0 +1,21 @@
+.menu__list{
+    display: flex;
+    position: absolute;
+    left: 52rem;
+    top: 6px;
+}
+
+.menu__list__item{
+    font-family: "Big Shoulders Inline Text";
+    font-size: xx-large;
+    color: black;
+    font-weight:bold;
+    margin: 10px;
+    opacity: 70%;
+}
+
+.menu__list__item:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+

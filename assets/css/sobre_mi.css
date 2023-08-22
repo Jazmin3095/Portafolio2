@@ -1,0 +1,92 @@
+.about{
+    position: relative;
+    top: 25rem;
+}
+
+
+
+.bg{
+    
+        background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
+        z-index: 2;
+        background-size: cover;
+        transition: all 0.5s ease;
+      }
+   
+    .t-stroke {
+        color: transparent;
+        -moz-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 2px;
+        -moz-text-stroke-color: #000000;
+        -webkit-text-stroke-color: #ffffff;
+     }
+   
+    .t-shadow-halftone {
+        position: relative;
+    }
+
+    .t-shadow-halftone::after {
+        content: "Sobre mi";
+        font-size: 5rem;
+        letter-spacing: 0px;
+        background: url('../img/fondo_colores.PNG') 50% 50%
+          repeat;
+        opacity: 100%;
+          background-size: 20%;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-stroke-width: 0;
+        -webkit-text-stroke-width: 0;
+        position: absolute;
+        text-align: center;
+        left: 8px;
+        right: 0;
+        top: 4rem;
+        z-index: 6px;
+        transition: all 0.5s ease;
+    
+     }
+    
+
+
+     .ov-btn-grow-ellipse {
+      background: transparent; /* color de fondo */
+      font-family: 'Arvo';
+      font-size: large;
+      text-align: justify;
+      color: transparent; /* color de fuente */
+      border: none; /* tamaño y color de borde */
+      padding: 20px 20px;
+      border-radius: 20%; /* redondear bordes */
+      position: absolute;
+      top: 1rem;
+      left: 30rem;
+      right: 30rem;
+      z-index: 1;
+      overflow: hidden;
+      display: inline-block;
+    }
+    .ov-btn-grow-ellipse:hover {
+      color: rgb(229, 183, 229);/* color de fuente hover */
+    }
+    .ov-btn-grow-ellipse::after {
+      content: "";
+      background: black; /* color de fondo hover */
+      position: absolute;
+      z-index: -1;
+      padding: 16px 20px;
+      display: block;
+      border-radius: 50%;
+      left: -50%;
+      right: -50%;
+      top: -150%;
+      bottom: -150%;
+      transform: scale(0, 0);
+      transition: all 0.4s ease;
+    }
+    .ov-btn-grow-ellipse:hover::after {
+      transition: all 0.8s ease-out;
+      transform: scale(1, 1);
+    }

@@ -1,0 +1,90 @@
+.hobbies__line{
+    display: flex;
+    position: absolute;
+    left: 4rem;
+    top: 5rem;
+}
+
+.hobbies__line2{
+    display: flex;
+    position: absolute;
+    left:17rem;
+    top: 20rem;
+ }
+
+ .hobbies__box{
+    font-family: 'Handlee';
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    margin: 5rem;
+    opacity: 100%;
+ }
+
+
+ .hobbies__img__guitar{
+    width: 200px;
+    border-radius: 100%;
+  }
+.hobbies__img__guitar:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow: 0px 0px 15px 15px #5cde87;
+    }
+
+
+
+.hobbies__img__music{
+    width: 200px;
+    border-radius: 100%;
+}   
+.hobbies__img__music:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow: 0px 0px 15px 15px #7d1f9a;
+ }
+
+
+
+.hobbies__img__series{
+    width: 200px;
+    border-radius: 100%;
+}   
+.hobbies__img__series:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow: 0px 0px 15px 15px #e8413e;
+}
+
+
+.hobbies__img__manualidad{
+    width: 200px;
+    border-radius: 100%;
+}   
+.hobbies__img__manualidad:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow: 0px 0px 15px 15px #9de7cc;
+}
+
+
+.hobbies__img__tejer{
+    width: 200px;
+    border-radius: 100%;
+}   
+.hobbies__img__tejer:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow: 0px 0px 15px 15px #efbe62;
+}
+
+
+.hobbies__img__peluqueria{
+    width: 200px;
+    border-radius: 100%;
+}   
+.hobbies__img__peluqueria:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow: 0px 0px 15px 15px #b195f4;
+}

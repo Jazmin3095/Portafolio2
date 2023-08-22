@@ -1,0 +1,37 @@
+.academic__courses{
+    display: flex;
+    position: absolute;
+    left: 4rem;
+    top: 5rem;
+}
+
+.academic__courses__box{
+    font-family: 'Handlee';
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    margin: 5rem;
+    opacity: 100%;
+}
+
+
+.academic__courses__ipn{
+    width: 220px;
+    border-radius: 25%;
+}
+.academic__courses__ipn:hover{
+    border-radius:50%;
+    -webkit-border-radius:25%;
+    -webkit-box-shadow: 0px 0px 15px 15px #e9cccc;
+}
+
+
+.academic__courses__alura{
+    width: 270px;
+    border-radius: 25%;
+}
+.academic__courses__alura:hover{
+    border-radius:50%;
+    -webkit-border-radius:25%;
+    -webkit-box-shadow: 0px 0px 15px 15px #3c1f9a;
+}

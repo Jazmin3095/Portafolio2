@@ -1,0 +1,29 @@
+.skills__name__html{
+    padding: 23px;
+    color: orange;
+    text-decoration-line: overline;
+}
+
+.skills__name__js{
+    padding: 23px;
+    color: rgb(98, 218, 239);
+    text-decoration-line: overline;
+}
+
+.skills__name__node{
+    padding: 23px;
+    color: rgb(69, 228, 109);
+    text-decoration-line: overline;
+}
+
+.skills__name__react{
+    padding: 23px;
+    color: lightblue;
+    text-decoration-line: overline;
+}
+
+.skills__name__css{
+    padding: 23px;
+    color: rgb(102, 198, 250);
+    text-decoration-line: overline;
+}

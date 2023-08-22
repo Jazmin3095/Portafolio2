@@ -1,0 +1,75 @@
+.experience__title{
+    font-family: 'Great Vibes';
+    font-size:50px;
+    color: goldenrod;
+}
+
+.experience__text{
+    font-family: 'Big Shoulders Inline Text';
+    font-size: 30px;
+    text-align: center;
+    color: powderblue;
+}
+
+.experience__description{
+    position: absolute;
+    right: 3rem;
+}
+
+.experiencia__botao--repo{
+    background-color: lightcoral;
+    border-radius: 20%;
+    padding: 10px;
+    font-family: 'Handlee';
+    font-size: larger;
+}
+
+.experiencia__botao--repo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.experience__botao--demo{
+    background-color: lightcoral;
+    border-radius: 20%;
+    padding: 10px;
+    font-family: 'Handlee';
+    font-size: larger;
+}
+
+.experience__botao--demo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+.experiencia__botao--repo2{
+    background-color: lightcoral;
+    border-radius: 20%;
+    padding: 10px;
+    font-family: 'Handlee';
+    font-size: larger;
+}
+
+.experiencia__botao--repo2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.experience__botao--demo2{
+    background-color: lightcoral;
+    border-radius: 20%;
+    padding: 10px;
+    font-family: 'Handlee';
+    font-size: larger;
+}
+
+.experience__botao--demo2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
