@@ -41,14 +41,3 @@
 
 
 
-@media screen and (min-width:0) {
-    .title__profile{
-        font-size: 3rem;
-    }
-}
-
-@media screen and (min-width:768px) {
-    .title__profile{
-        font-size: 5.0625rem;
-    }
-}

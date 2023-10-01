@@ -1,3 +1,10 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline;
+    padding: 50px;
+}
+
 .formcontato__input{
     display: flex;
     flex-direction: column;
@@ -6,3 +13,17 @@
 }
 
 
+.formcontato__botao{
+    background-color: lightcoral;
+    border-radius: 20%;
+    padding: 10px;
+    font-family: 'Handlee';
+    font-size: larger;
+}
+
+.formcontato__botao{
+
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
